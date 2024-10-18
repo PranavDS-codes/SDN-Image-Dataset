@@ -11,6 +11,7 @@ This repository is dedicated to the generation and analysis of image datasets fo
 - [Usage](#usage)
 - [Results](#results)
 - [Acknowledgments](#acknowledgments)
+- [Research Paper](#research-paper)
 
 ## Introduction
 Intrusion Detection Systems (IDS) play a crucial role in safeguarding networks from malicious activities. This project leverages big data analytics and AI/ML techniques to create and optimize datasets for IDS in SDN environments. By converting network traffic features into image formats, we generate datasets that are well-suited for use in convolutional neural networks (CNNs) and other deep learning models, enhancing the accuracy and robustness of intrusion detection.
@@ -68,7 +69,10 @@ To set up the project locally, follow these steps:
    ```
 
 2. **Install dependencies**:
+   It is recommended to create a virtual environment and install the required dependencies.
    ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    pip install -r requirements.txt
    ```
 
@@ -99,12 +103,14 @@ This project builds upon the SDN DDoS attack dataset developed by:
 
 Their original work provided the foundation for the dataset used in this project, and we give full credit to them for their contributions. The dataset can be accessed at [Mendeley Data, V1](https://doi.org/10.17632/jxpfjc64kr.1).
 
+## Research Paper
+For more detailed information, please refer to the research paper for this project: https://ieeexplore.ieee.org/abstract/document/10430538
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
 For any questions or further information, please contact:
-- **Pranav Pant**: [Your Email Address]
+- **Pranav Pant**: pranavpant26@gmail.com
 
 Feel free to contribute to the project by submitting pull requests or issues.
-
