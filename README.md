@@ -33,29 +33,29 @@ In this project, the dataset is processed, encoded, and transformed into images 
 
 ## Repository Structure
 ```
-From_Pixels_to_Insights/
+SDN-Image-Dataset/
 |
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
 │
 ├── notebooks/
-│    ├── vertical_horizontal_method.ipynb
-│    └── bilinear_interpolation_method.ipynb
+│    ├── csv to image .ipynb
+│    └── Workflow.ows
 │
 ├── src/
 │    ├── generate_images_vertical_horizontal.py
 │    └── generate_images_bilinear_interpolation.py
 │
 ├── data/
-│    ├── BENIGN/
-│    ├── MALICIOUS/
-│    ├── BENIGN2/
-│    ├── MALICIOUS2/
+│    ├── Proposed Dataset/
+     ├── HV/
+│       ├── BENIGN/
+│       ├── MALICIOUS/
+│    ├── BI/
+│       ├── BENIGN2/
+│       ├── MALICIOUS2/
 │    └── raw_dataset.csv
-│
-└── docs/
-     └── methodology.md
 ```
 
 ## Installation
